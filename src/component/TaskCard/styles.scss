@@ -1,0 +1,33 @@
+.task-container{
+    border: 2px solid black;
+    border-radius: 10px ;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    padding: 10px;
+
+    &_divider{
+        border-bottom: 1px solid black;
+    }
+
+    &_title{
+        font-weight: 700;
+    }
+    &_status{
+        font-weight: 700;
+        color: #40d201;
+       
+    }
+    &_des-title{
+        font-weight: 700;
+    }
+    &_des-content{
+        height: 56px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+    }
+}

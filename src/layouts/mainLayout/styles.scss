@@ -1,0 +1,8 @@
+.main-layout-container{
+    &_content{
+        display: flex;
+    }
+    .right-side{
+        padding: 10px;
+    }
+}
